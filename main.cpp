@@ -1,5 +1,16 @@
 #include <iostream>
+#include "lib.h"
 
-int main(){
-  return 0;
+using namespace std;
+int main() {
+    int numero=0, conta=0;
+    cin>> numero;
+    numeroprimo(numero, 1,  conta);
+    if (conta==0) {
+        cout<< "numero primo"<< endl;
+    }else
+    {
+        cout<< "numero non primo" << endl;
+    }
+    return 0;
 }
