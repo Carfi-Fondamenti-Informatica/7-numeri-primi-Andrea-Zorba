@@ -9,7 +9,7 @@ void numeroprimo(int a, int i, int &conta){
             conta++;
         }else
         {
-         numeroprimo(a,i, &conta);
+         numeroprimo(a,i, conta);
         }
     }
 }
