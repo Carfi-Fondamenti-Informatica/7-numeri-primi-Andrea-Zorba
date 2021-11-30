@@ -1,4 +1,4 @@
-#ifndef CLION_FILES_LIB_H
-#define CLION_FILES_LIB_H
+#ifndef ESERCITAZIONE_7_LIB_H
+#define ESERCITAZIONE_7_LIB_H
 void numeroprimo(int a, int b, int &conta);
-#endif //CLION_FILES_LIB_H
+#endif // ESERCITAZIONE_7_LIB_H
